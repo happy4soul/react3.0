@@ -9,14 +9,10 @@ var changeColor = {
 };
 if (time > 12 && time < 18) {
   print = "afternoon";
-  changeColor = {
-    color: "green"
-  };
+  changeColor.color = "green";
 } else if (time > 18 && time < 24) {
   print = "night";
-  changeColor = {
-    color: "blue"
-  };
+  changeColor.color = "blue";
 }
 
 ReactDOM.render(
